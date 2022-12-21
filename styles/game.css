@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.title{
+  color: #22afef;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+.sub{
+  color: gray;
+  font-size: 8px;
+  padding-bottom: 1px;
+}
+.line{
+  border-top: 1px solid gray;
+  margin: 5px 0 8px 0;
+}
+.header_body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game{
+  width: 200px;
+  height: 150px;
+  background-color: rgb(247, 247, 229);
+  border: 1px solid rgb(195, 187, 41);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin: 10px 0;
+}
+.gameTitle{
+  font-size: 11px;
+  font-weight: 700;
+}
+.gameSub{
+  font-size: 9px;
+  color: #999;
+  font-weight: 700;
+}
+input{
+  font-size: 9px;
+}
+button{
+  font-size: 11px;
+  font-weight: 700;
+  color: rgb(72, 64, 0);
+  background-color: rgb(232, 217, 135);
+  border: 1px solid rgb(151, 124, 2);
+  border-radius: 2px;
+}
+#result{
+  font-size: 12px;
+  font-weight: 700;
+  color: red;
+}
+.gameContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.num{
+  color: red;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0 6px;
+}

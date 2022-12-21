@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>사이좋은 사람들::싸이월드</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <script src="https://kit.fontawesome.com/89bd713e38.js" crossorigin="anonymous"></script>
+  <script src="./js/nav.js"></script>
+</head>
+<body>
+  <div class="bg">
+    <div class="outbox">
+      <div class="wrapper">
+        <div class="content_left">
+          <div class="left_header">
+            <div class="today">
+              <span>Total</span>
+              <span>0</span>
+              <span> | </span>
+              <span>Total</span>
+              <span>12345</span>
+            </div>
+          </div>
+          <div class="left_body">
+            <div class="user">
+              <div class="user_picture"></div>
+              <div class="line"></div>
+            </div>
+            <div class="profile">
+              <div class="icon"><i class="fa-sharp fa-solid fa-user"></i> name</div>
+              <div class="icon"><i class="fas fa-phone"></i> phone</div>
+              <div class="icon"><i class="fas fa-envelope-square"></i> e-mail</div>
+              <div class="icon"><i class="fa-sharp fa-solid fa-star"></i> instargram</div>
+            </div>
+            <div class="feel">
+              <div class="feel_title">오늘의 기분</div>
+              <select id="select">
+                <option>기쁨</option>
+                <option>슬픔</option>
+                <option>화남</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="content_right">
+          <div class="right_header">
+            <div class="header_title">사이좋은 사람들, 싸이월드</div>
+            <div class="header_sub">설정 ▶</div>
+          </div>
+          <div class="right_body">
+            <iframe id="contentFrame" src="home.html"></iframe>
+          </div>
+        </div>
+        <div class="nav">
+          <div class="nav_item" id="navHome" onclick="navHome()">home</div>
+          <div class="nav_item" id="navGame" onclick="navGame()">game</div>
+          <div class="nav_item" id="navMusic" onclick="navMusic()">music</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

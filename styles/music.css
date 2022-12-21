@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.title{
+  color: #22afef;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+.sub{
+  color: gray;
+  font-size: 8px;
+  padding-bottom: 1px;
+}
+.line{
+  border-top: 1px solid gray;
+  margin: 5px 0 8px 0;
+}
+
+.album {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px 0 30px 0;
+}
+
+.album_item .thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.album_item .songtitle {
+  font-size: 11px;
+  font-weight: bold;
+  color: #0f465e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.album_item .artist {
+  font-size: 7px;
+  font-weight: bold;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.body {
+  width: 100%;
+}
+
+.albumTable {
+  border-spacing: 0px;
+  width: 100%;
+  padding-top: 8px;
+}
+
+.albumTable th {
+  height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  background-color: #EEEEEE;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+  border-bottom: 1px dashed gray;
+}
+
+.albumTable td {
+  height: 20px;
+  font-size: 10px;
+  color: #0F465E;
+  border-bottom: 1px dashed gray;
+}
+
+.album-table-checkbox {
+  width: 5%;
+  text-align: center;
+}
+
+.album-table-number {
+  width: 10%;
+  text-align: center;
+}
+
+.album-table-song {
+  width: 45%;
+  text-align: left;
+}
+
+.album-table-artist {
+  width: 30%;
+  text-align: left;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  color: red;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.albumTable_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  padding-top: 10px;
+}
+.albumTable_footer button {
+  font-size: 8px;
+  color: gray;
+  padding: 3px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 57.43%, #DDDDDD 100%);
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.albumTable_footer_center span {
+  color: red;
+}
